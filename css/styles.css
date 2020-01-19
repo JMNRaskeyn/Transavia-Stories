@@ -1,7 +1,7 @@
 /* Achtergrond */
 
 #background {
-    background-image: url("Images2/strand2-backgroundcopy2");
+    background-image: url(/Images/strandtropisch.png);
     background-repeat: no-repeat;
     background-size: 100vw 20vw;
     background-position: auto;
@@ -717,7 +717,7 @@ fieldset div {
    #login, .form-container .btn {
     margin-left: 4em;
 }
-    
+
     }
     @media screen and (max-width: 1000px) {
         button#like, button#like1 {
