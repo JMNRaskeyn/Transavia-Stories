@@ -1,7 +1,7 @@
 /* Achtergrond */
 
 #background {
-    background-image: url("../Images/strandtropisch.png");
+    background: url("../Images/strandtropisch.png");
     background-repeat: no-repeat;
     background-size: 100vw 20vw;
     background-position: auto;
