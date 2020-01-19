@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src='js/script.js'></script>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name='viewport' content="key=value, key=value">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
@@ -16,6 +16,8 @@
     https://developers.google.com/speed/libraries
     http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
     https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js - Deze bronnen zijn linkjes die helpen bij het toevoegen van jquery in de code. Deze bron is beschikbaar via google, en zorgt ervoor dat je toegang hebt tot de 'library' van jquery.  
+    
+    W3schools.com
     -->
 
 <body>
@@ -27,7 +29,7 @@
             <h1> Stories</h1>
 
             <button type="button" id="accountbutton">
-                 <img alt='account' id='account' src="Images/accounticon.png" onclick="openForm()"></button>
+                 <img alt='account' id='account' src=Images/accounticon.png onclick="openForm()"></button>
 
             <ul>
                 <li><a href="index.html">Downloads</a></li>
@@ -37,14 +39,14 @@
         </nav>
     </header>
 
-   
-   
+
+
     <div id="background"></div>
 
-  
-  
-   <!-- Navigatie -->
-   
+
+
+    <!-- Navigatie -->
+
     <section id='last'>
         <h5>Droom</h5>
         <p>
@@ -64,33 +66,33 @@
 
     </section>
 
-   <!-- Like button, button veranderd van kleur (feedback) wanneer je erop klikt. De tekst "je vind dit verhaal leuk" komt vervolgens tevoorschijn. -->
+    <!-- Like button, button veranderd van kleur (feedback) wanneer je erop klikt. De tekst "je vind dit verhaal leuk" komt vervolgens tevoorschijn. -->
     <button id='like' onclick="changecol()"></button>
     <div id="htext" class='textlike'>
         Je vind dit verhaal leuk
     </div>
     <button id='like1'></button>
 
-   
-   <!-- Login formulier -->
+
+    <!-- Login formulier -->
     <div class="form-popup" id="myForm">
         <form action="index.php" class="form-container">
             <div id="login">Login</div>
-      
-          <label id="email"><b>Email</b></label>
-          <input type="text" placeholder="john_doe@hotmail.com" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-      
-          <label id="psw"><b>Password</b></label>
-          <input type="password" placeholder="****" name="psw" required>
-      
-          <button type="submit" class="btn">Login</button>
-          <button type="submit" id="cancel" class="btn cancel" onclick="closeForm()">Close</button>
+
+            <label id="email"><b>Email</b></label>
+            <input type="text" placeholder="john_doe@hotmail.com" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+            <label id="psw"><b>Password</b></label>
+            <input type="password" placeholder="****" name="psw" required>
+
+            <button type="submit" class="btn">Login</button>
+            <button type="submit" id="cancel" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
-      </div>
-      
-    
-      <script src='js/class.js'></script>
-    
+    </div>
+
+
+    <script src='js/class.js'></script>
+
 </body>
 
 
